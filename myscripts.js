@@ -1,8 +1,8 @@
 
 //time to give fizzbuzz a go
 
-function FizzAndBuzz() {
-    console.log("Fizz")
+let FizzAndBuzz = () => {
+
     for ( i=0; i < 1001; i++){
         
         if (i % 15 == 0) {
